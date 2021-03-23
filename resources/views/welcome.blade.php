@@ -63,78 +63,101 @@
 @section('content')
     <section class="container-fluid bg-primary py-5">
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner text-white">
-                    <div class="carousel-item active"  style="height: 450px">
-                        <img
-                            src="./assets/media/1-01.png"
-                            alt=""
-                            style="height: 400px; position: absolute; right: 100px;"
-                        />
-                        <div class="d-flex align-items-center h-100">
-                            <div class="container">
-                                <h1 class="display-4 font-weight-bold mb-5">
-                                    #1 Award-winning
-                                    <br/>
-                                    Digital Marketing<br/>Agency
-                                </h1>
-                                <button class="btn btn-dark mr-3">Get Free Quote</button>
-                                <button class="btn btn-light">
-                                    <i class="far fa-play-circle"></i> Intro Video
-                                </button>
-                            </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner text-white">
+                <div class="carousel-item active" style="height: 450px">
+                    <img
+                        src="./assets/media/1-01.png"
+                        alt=""
+                        style="height: 400px; position: absolute; right: 100px;"
+                    />
+                    <div class="d-flex align-items-center h-100">
+                        <div class="container">
+                            <h1 class="display-4 font-weight-bold mb-5">
+                                #1 Award-winning
+                                <br/>
+                                Digital Marketing<br/>Agency
+                            </h1>
+                            <button class="btn btn-dark mr-3">Get Free Quote</button>
+                            <button class="btn btn-light">
+                                <i class="far fa-play-circle"></i> Intro Video
+                            </button>
                         </div>
-
-                    </div>
-                    <div class="carousel-item"  style="height: 450px">
-                        <img
-                            src="./assets/media/1-01.png"
-                            alt=""
-                            style="height: 400px; position: absolute; right: 100px;"
-                        />
-                        <div class="d-flex align-items-center h-100">
-                            <div class="container">
-                                <h1 class="display-4 font-weight-bold mb-5">
-                                    #1 Award-winning
-                                    <br/>
-                                    Digital Marketing<br/>Agency
-                                </h1>
-                                <button class="btn btn-dark mr-3">Get Free Quote</button>
-                                <button class="btn btn-light">
-                                    <i class="far fa-play-circle"></i> Intro Video
-                                </button>
-                            </div>
-                        </div>
-
                     </div>
 
-                    <div class="carousel-item"  style="height: 450px">
-                        <img
-                            src="./assets/media/1-01.png"
-                            alt=""
-                            style="height: 400px; position: absolute; right: 100px;"
-                        />
-                        <div class="d-flex align-items-center h-100">
-                            <div class="container">
-                                <h1 class="display-4 font-weight-bold mb-5">
-                                    #1 Award-winning
-                                    <br/>
-                                    Digital Marketing<br/>Agency
-                                </h1>
-                                <button class="btn btn-dark mr-3">Get Free Quote</button>
-                                <button class="btn btn-light">
-                                    <i class="far fa-play-circle"></i> Intro Video
-                                </button>
-                            </div>
+                </div>
+                <div class="carousel-item" style="height: 450px">
+                    <img
+                        src="./assets/media/1-01.png"
+                        alt=""
+                        style="height: 400px; position: absolute; right: 100px;"
+                    />
+                    <div class="d-flex align-items-center h-100">
+                        <div class="container">
+                            <h1 class="display-4 font-weight-bold mb-5">
+                                #1 Award-winning
+                                <br/>
+                                Digital Marketing<br/>Agency
+                            </h1>
+                            <button class="btn btn-dark mr-3">Get Free Quote</button>
+                            <button class="btn btn-light">
+                                <i class="far fa-play-circle"></i> Intro Video
+                            </button>
                         </div>
-
                     </div>
+
+                </div>
+
+                <div class="carousel-item" style="height: 450px">
+                    <img
+                        src="./assets/media/1-01.png"
+                        alt=""
+                        style="height: 400px; position: absolute; right: 100px;"
+                    />
+                    <div class="d-flex align-items-center h-100">
+                        <div class="container">
+                            <h1 class="display-4 font-weight-bold mb-5">
+                                #1 Award-winning
+                                <br/>
+                                Digital Marketing<br/>Agency
+                            </h1>
+                            <button class="btn btn-dark mr-3">Get Free Quote</button>
+                            <button class="btn btn-light">
+                                <i class="far fa-play-circle"></i> Intro Video
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Trusted by our awesome partners -->
+    <section id="trusted" class="container py-5">
+        <h2 class="text-center font-weight-bold">Trusted by our awesome partners</h2>
+        <div class="row py-5">
+            <div class="col text-center">
+                <img src="./assets/media/1-06.png" alt="" style="height: 80px" class="mx-auto">
+            </div>
+            <div class="col text-center">
+                <img src="./assets/media/1-07.png" alt="" style="height: 80px" class="mx-auto">
+            </div>
+            <div class="col text-center">
+                <img src="./assets/media/1-09.png" alt="" style="height: 80px" class="mx-auto">
+            </div>
+            <div class="col text-center">
+                <img src="./assets/media/1-06.png" alt="" style="height: 80px" class="mx-auto">
+            </div>
+            <div class="col text-center">
+                <img src="./assets/media/1-10.png" alt="" style="height: 80px" class="mx-auto">
+            </div>
+
         </div>
     </section>
 @endsection

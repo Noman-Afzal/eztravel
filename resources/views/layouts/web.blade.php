@@ -9,6 +9,7 @@
 
     <title>{{ config('app.name', 'Adziv') }}</title>
 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css"/>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link
