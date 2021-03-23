@@ -301,6 +301,47 @@
         </div>
     </section>
 
+    <!-- We're your partner -->
+    <section id="digital-marketing" class="container">
+        <h5 class="text-center" style="font-weight: 400;">We're your partner </h5>
+        <h2 class="text-center">Digital Marketing Agency.</h2>
+        <div class="row py-5">
+            <div class="col-12 col-md-7 col-lg-7">
+                <img src="./assets/media/1-30.png" alt="" class="img-fluid">
+                {{--                <img src="./assets/media/1-29.png" alt="">--}}
+            </div>
+            <div class="col-12 col-md-5 col-lg-5 align-self-center">
+                <p style="line-height: 2rem">
+                    We are the best Digital Marketing Agency in Dubai.
+                    Our team is made up of award-winning designers,
+                    developers, and Internet marketers. For us, it’s not
+                    just a job it’s a driving passion, and that passion has
+                    led to some of the best work on the Internet
+                </p>
+                <p class="mt-2" style="line-height: 2rem">
+                    Don’t take our word for it! We’re proud of our many
+                    customer testimonials across the globe. If you are
+                    seeking digital marketing
+                    services, reach out to us. We’ll wow you!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- READY TO GROW YOUR BUSINESS -->
+
+    <section id="grow-business" class="container bg-primary mb-5 py-4 px-5 text-white" style="border-radius: 20px">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 align-self-center">
+                <h2 class="font-weight-bold mb-0">READY TO GROW<br/>YOUR BUSINESS</h2>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 align-self-center text-right">
+                <a href="#" class="btn btn-light px-4 py-3 text-primary font-weight-bold">Get Free Proposal</a>
+                <a href="#" class="btn btn-light px-4 py-3 text-primary font-weight-bold"><i class="fa fa-phone mr-2"></i> Book Consultation Call</a>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @push('scripts')
