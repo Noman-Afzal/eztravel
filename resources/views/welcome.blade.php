@@ -160,6 +160,147 @@
 
         </div>
     </section>
+
+    <!-- How we can help your business? -->
+    <section id="business" class="container">
+        <h2 class="text-center font-weight-bold">How we can help your business?</h2>
+        <div class="row py-5">
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-11.png" alt="" class="w-25">
+                    <h3>Web Design & Development</h3>
+                    <p>
+                        Grow your business with custom developed web UI/UX,
+                        development & QA
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-12.png" alt="" class="w-25">
+                    <h3>Lead Generation</h3>
+                    <p>
+                        Generate quality leads, drive traffic, and build brand
+                        awareness by L-G campaigns
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-13.png" alt="" class="w-25">
+                    <h3>Shopify Expert</h3>
+                    <p>
+                        Adziv Digital - Proudly certified Shopify partner
+                        agency in GCC/MENA
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-14.png" alt="" class="w-25">
+                    <h3>SEO Services</h3>
+                    <p>
+                        Get Organic traffic through google SERP
+                        by Absolute top 1st position rankings.
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-12.png" alt="" class="w-25">
+                    <h3>E - Commerce</h3>
+                    <p>
+                        Start selling today! Turn your products
+                        into cash through an eCommerce store
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-15.png" alt="" class="w-25">
+                    <h3>Dropshipping</h3>
+                    <p>
+                        Start a dropshipping business with
+                        successful 7Figure niche expert marketers
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-16.png" alt="" class="w-25">
+                    <h3>PPC Management</h3>
+                    <p>
+                        Increase 10x ROI by google Search, Display,
+                        YouTube & Retargeting Ads (PPC)
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-19.png" alt="" class="w-25">
+                    <h3>Web Design & Development</h3>
+                    <p>
+                        Grow your business with custom developed web UI/UX,
+                        development & QA
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+
+            <!-- col-start -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="business-card">
+                    <img src="./assets/media/1-18.png" alt="" class="w-25">
+                    <h3>Creative & Branding</h3>
+                    <p>
+                        We help businesses grow through strategic
+                        branding, designing & print media.
+                    </p>
+
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+            <!-- col-end -->
+        </div>
+    </section>
+
 @endsection
 
 @push('scripts')
