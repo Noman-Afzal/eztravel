@@ -1,100 +1,143 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.web')
 
-        <title>Laravel</title>
+@push('stylesheets')
+@endpush
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+@section('navbar')
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                {{ config('app.name', 'Laravel') }}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav mr-auto">
 
-            .full-height {
-                height: 100vh;
-            }
+                </ul>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- Authentication Links -->
+                    @guest
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        </li>
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            </li>
                         @endif
-                    @endauth
-                </div>
-            @endif
+                    @else
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                      style="display: none;">
+                                    @csrf
+                                </form>
+                            </div>
+                        </li>
+                    @endguest
+                </ul>
             </div>
         </div>
-    </body>
-</html>
+    </nav>
+@endsection
+
+@section('content')
+    <section class="container-fluid bg-primary py-5">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active"  style="height: 450px">
+                        <img
+                            src="./assets/media/1-01.png"
+                            alt=""
+                            style="height: 400px; position: absolute; right: 100px;"
+                        />
+                        <div class="d-flex align-items-center h-100">
+                            <div class="container">
+                                <h1 class="display-4 font-weight-bold mb-5">
+                                    #1 Award-winning
+                                    <br/>
+                                    Digital Marketing<br/>Agency
+                                </h1>
+                                <button class="btn btn-dark mr-3">Get Free Quote</button>
+                                <button class="btn btn-light">
+                                    <i class="far fa-play-circle"></i> Intro Video
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item"  style="height: 450px">
+                        <img
+                            src="./assets/media/1-01.png"
+                            alt=""
+                            style="height: 400px; position: absolute; right: 100px;"
+                        />
+                        <div class="d-flex align-items-center h-100">
+                            <div class="container">
+                                <h1 class="display-4 font-weight-bold mb-5">
+                                    #1 Award-winning
+                                    <br/>
+                                    Digital Marketing<br/>Agency
+                                </h1>
+                                <button class="btn btn-dark mr-3">Get Free Quote</button>
+                                <button class="btn btn-light">
+                                    <i class="far fa-play-circle"></i> Intro Video
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item"  style="height: 450px">
+                        <img
+                            src="./assets/media/1-01.png"
+                            alt=""
+                            style="height: 400px; position: absolute; right: 100px;"
+                        />
+                        <div class="d-flex align-items-center h-100">
+                            <div class="container">
+                                <h1 class="display-4 font-weight-bold mb-5">
+                                    #1 Award-winning
+                                    <br/>
+                                    Digital Marketing<br/>Agency
+                                </h1>
+                                <button class="btn btn-dark mr-3">Get Free Quote</button>
+                                <button class="btn btn-light">
+                                    <i class="far fa-play-circle"></i> Intro Video
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@push('scripts')
+@endpush
