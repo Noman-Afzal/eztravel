@@ -40,3 +40,62 @@
         }
     }
 }
+.digital-agency-card {
+    border-radius: 50px;
+
+    h5 {
+        @extend .d-flex;
+        @extend .justify-content-between;
+
+        i {
+            &.checked {
+                color: orange;
+            }
+            font-size: 12px;
+            text-align: right !important;
+        }
+    }
+
+    a {
+        color: $gray-600;
+        font-size: 12px;
+        font-weight: 700;
+        @extend .text-decoration-none;
+        @extend .d-flex;
+        @extend .align-items-center;
+
+        span {
+            width: 140px;
+            display: inline-block;
+        }
+
+        img {
+            width: 12%;
+            display: inline-block !important;
+        }
+    }
+
+    img {
+        @extend .d-block;
+    }
+
+    img.hover {
+        @extend .d-none;
+    }
+
+    &:hover {
+        @extend .shadow-lg;
+
+        img {
+            @extend .d-none;
+        }
+
+        img.hover {
+            @extend .d-block;
+        }
+
+        a {
+            color: $primary;
+        }
+    }
+}

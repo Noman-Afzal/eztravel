@@ -304,11 +304,11 @@
     <!-- We're your partner -->
     <section id="digital-marketing" class="container">
         <h5 class="text-center" style="font-weight: 400;">We're your partner </h5>
-        <h2 class="text-center">Digital Marketing Agency.</h2>
+        <h1 class="text-center font-weight-bold display-4">Digital Marketing Agency.</h1>
         <div class="row py-5">
             <div class="col-12 col-md-7 col-lg-7">
                 <img src="./assets/media/1-30.png" alt="" class="img-fluid">
-                {{--                <img src="./assets/media/1-29.png" alt="">--}}
+                {{--                                <img src="./assets/media/1-29.png" alt="">--}}
             </div>
             <div class="col-12 col-md-5 col-lg-5 align-self-center">
                 <p style="line-height: 2rem">
@@ -329,7 +329,6 @@
     </section>
 
     <!-- READY TO GROW YOUR BUSINESS -->
-
     <section id="grow-business" class="container bg-primary mb-5 py-4 px-5 text-white" style="border-radius: 20px">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6 align-self-center">
@@ -338,7 +337,116 @@
 
             <div class="col-12 col-md-6 col-lg-6 align-self-center text-right">
                 <a href="#" class="btn btn-light px-4 py-3 text-primary font-weight-bold">Get Free Proposal</a>
-                <a href="#" class="btn btn-light px-4 py-3 text-primary font-weight-bold"><i class="fa fa-phone mr-2"></i> Book Consultation Call</a>
+                <a href="#" class="btn btn-light px-4 py-3 text-primary font-weight-bold"><i
+                        class="fa fa-phone mr-2"></i> Book Consultation Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Your Partner Digital Marketing Agency -->
+    <section id="digital-agency">
+        <div class="container">
+            <h2 class="text-center">Your Partner Digital Marketing Agency</h2>
+            <h5 class="text-center text-muted" style="font-weight: 400;">Read what people say about Adziv Digital</h5>
+            <div class="row my-5">
+                <!-- col start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="digital-agency-card border p-4">
+                        <img src="./assets/media/1-37.png" alt="" class="w-25"/>
+                        <img src="./assets/media/1-33.png" alt="" class="w-25 hover"/>
+                        <h5 class="font-weight-bold my-4">
+                            Content Marketing
+                            <span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </span>
+                        </h5>
+                        <p>
+                            “We were nowhere to be found before,
+                            and since they started six months ago,
+                            we’ve seen gains.” Adziv Digital has
+                            significantly boosted keyword
+                            rankings and driven inbound leads.
+                        </p>
+
+                        <a href="#">
+                            <span>View all our verified Cluth Reviews</span>
+                            <img src="/assets/media/1-40.png" alt="" />
+                            <img src="/assets/media/1-39.png" alt="" class="hover"/>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- col end -->
+
+                <!-- col start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="digital-agency-card border p-4" style="border-radius: 50px;">
+                        <img src="./assets/media/1-34.png" alt="" class="w-25"/>
+                        <img src="./assets/media/1-31.png" alt="" class="w-25 hover"/>
+                        <h5 class="font-weight-bold my-4">
+                            Eugene Hong
+                            <span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </span>
+                        </h5>
+                        <p>
+                            Till date, we have engaged your company for
+                            almost 2 years. Time really flies. This company
+                            is definitely honest and reliable. Try it and
+                            you will be not disappointed!
+                        </p>
+
+                        <a href="#">
+                            <span>View all our verified Cluth Reviews</span>
+                            <img src="/assets/media/1-40.png" alt="" />
+                            <img src="/assets/media/1-39.png" alt="" class="hover"/>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- col end -->
+
+                <!-- col start -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="digital-agency-card border p-4" style="border-radius: 50px;">
+                        <img src="/assets/media/1-35.png" alt="" class="w-25"/>
+                        <img src="/assets/media/1-32.png" alt="" class="w-25 hover"/>
+                        <h5 class="font-weight-bold my-4">
+                            Trevor Ogden
+                            <span>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                                <i class="fa fa-star checked"></i>
+                            </span>
+                        </h5>
+
+                        <p>
+                            We teamed up with Adzic to generate a fluent
+                            and fresh lead funnel with targeted campaigns
+                            and strategy. So far we are pleased to say that
+                            our business is growing fast.
+                        </p>
+
+                        <a href="#">
+                            <span>View all our verified Cluth Reviews</span>
+                            <img src="/assets/media/1-40.png" alt="" />
+                            <img src="/assets/media/1-39.png" alt="" class="hover"/>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- col end -->
+
             </div>
         </div>
     </section>

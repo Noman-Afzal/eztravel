@@ -7212,7 +7212,9 @@ button.bg-dark:focus {
   content: "";
 }
 
-.d-none {
+.d-none,
+.digital-agency-card:hover img,
+.digital-agency-card img.hover {
   display: none !important;
 }
 
@@ -7224,7 +7226,9 @@ button.bg-dark:focus {
   display: inline-block !important;
 }
 
-.d-block {
+.d-block,
+.digital-agency-card:hover img.hover,
+.digital-agency-card img {
   display: block !important;
 }
 
@@ -7240,7 +7244,9 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex,
+.digital-agency-card a,
+.digital-agency-card h5 {
   display: flex !important;
 }
 
@@ -7541,7 +7547,8 @@ button.bg-dark:focus {
   justify-content: center !important;
 }
 
-.justify-content-between {
+.justify-content-between,
+.digital-agency-card h5 {
   justify-content: space-between !important;
 }
 
@@ -7557,7 +7564,8 @@ button.bg-dark:focus {
   align-items: flex-end !important;
 }
 
-.align-items-center {
+.align-items-center,
+.digital-agency-card a {
   align-items: center !important;
 }
 
@@ -8341,7 +8349,8 @@ button.bg-dark:focus {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.shadow-lg {
+.shadow-lg,
+.digital-agency-card:hover {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
@@ -10823,6 +10832,7 @@ a.text-dark:focus {
 }
 
 .text-decoration-none,
+.digital-agency-card a,
 .business-card a {
   text-decoration: none !important;
 }
@@ -10971,5 +10981,38 @@ a.text-dark:focus {
 .business-card:hover p,
 .business-card:hover a {
   color: #fff !important;
+}
+
+.digital-agency-card {
+  border-radius: 50px;
+}
+
+.digital-agency-card h5 i {
+  font-size: 12px;
+  text-align: right !important;
+}
+
+.digital-agency-card h5 i.checked {
+  color: orange;
+}
+
+.digital-agency-card a {
+  color: #6c757d;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.digital-agency-card a span {
+  width: 140px;
+  display: inline-block;
+}
+
+.digital-agency-card a img {
+  width: 12%;
+  display: inline-block !important;
+}
+
+.digital-agency-card:hover a {
+  color: #2d42f5;
 }
 
